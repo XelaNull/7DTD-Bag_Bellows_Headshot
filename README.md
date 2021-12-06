@@ -1,3 +1,5 @@
+Tested in A20 (b218)
+
 60 Slot Bag, 30 Reserve :: This modifies the UI and game to provide a 60-slot bag. Of the 60 slots, 30 are initially reserved and not provided to the player. The perk tree is modified so that the player may gain up to 20 more slots. The last 10 slots are reserved for items that increase available slots, or for encumbrance at higher level players.
 
 Faster Bellows :: This modifies the bellows item so that when you add it to your forge and smelt, the forge smelts 5x faster than usual.
