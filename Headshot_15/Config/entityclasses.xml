@@ -2,22 +2,22 @@
 	<!-- Adds 25% more headshot damage by player -->
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and contains(@tags, 'head')]/@value">1.15</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DismemberMultiplierHead']/@value">.4</set>
-  
-  <!-- Scale the Head Damage Modifier based on the Game Difficulty -->  
+
+  <!-- Scale the Head Damage Modifier based on the Game Difficulty -->
   <append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
       <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head" >
           <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="2"/>
       </passive_effect>
-      
+
       <passive_effect name="DamageModifier" operation="perc_add" value="1.15" tags="head" >
           <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="3"/>
       </passive_effect>
-      
-      <passive_effect name="DamageModifier" operation="perc_add" value="1.25" tags="head" >
+
+      <passive_effect name="DamageModifier" operation="perc_add" value="1.20" tags="head" >
           <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="4"/>
       </passive_effect>
-      
-      <passive_effect name="DamageModifier" operation="perc_add" value="1.35" tags="head" >
+
+      <passive_effect name="DamageModifier" operation="perc_add" value="1.25" tags="head" >
           <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="5"/>
       </passive_effect>
   </append>

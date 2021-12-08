@@ -4,12 +4,16 @@ Tested in A20 (b218)
 
 Faster Bellows :: This modifies the bellows item so that when you add it to your forge and smelt, the forge smelts 5x faster than usual.
 
-25% Headshot :: This provides an increase to headshot damage based on the difficulty setting of the game. Please see the chart below:
+Headshot_15 :: TSBX removed the 25% Headshot that I was using from his modlet collection. So I copied and revised the code a bit. It provides 15% boost to headshots and also scales the damage to headshots based on the difficulty of the game.
 
-Difficulty 2: No change
+Difficulty 2=No change
+Difficulty 3=15% Increase
+Difficulty 4=20% Increase
+Difficulty 5=25% Increase
 
-Difficulty 3: 25% Increase
+Headshot_25 :: TSBX removed the 25% Headshot that I was using from his modlet collection. So I copied and revised the code a bit. It provides 25% boost to headshots and also scales the damage to headshots based on the difficulty of the game.
 
-Difficulty 4: 75% Increase
-
-Difficulty 5: 100% Increase
+Difficulty 2=No change
+Difficulty 3=25% Increase
+Difficulty 4=35% Increase
+Difficulty 5=50% Increase
